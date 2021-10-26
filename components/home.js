@@ -82,7 +82,7 @@ export default class HomeScreen extends Component {
       .then(data => {
         this.setState({ data: data });
         console.log('Success:', data);
-
+        console.log('This has been a success');
       })
       .catch((error) => {
         console.error('Error:', error);
