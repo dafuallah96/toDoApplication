@@ -57,6 +57,8 @@ saveToDo = () => {
   })
   .catch((error) => {
     console.error('Error, theres an error in the system');
+    
+    console.error('New error messsage made by Abraham :)');
   });
 }
 
