@@ -69,8 +69,7 @@ export default class HomeScreen extends Component {
     this.setState({ show: boolean })
   }
 
-  //method to search based on the keyed infilled. API link to be replaced based on your api link
-
+  //method to search based on the keyed typed
   search = () => {
     fetch('https://3813-42-189-91-42.ngrok.io/api/todos' + '?title=' + this.state.title, {
       method: 'GET',
